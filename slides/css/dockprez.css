@@ -116,3 +116,14 @@ img[alt=Icon] {
 	width : 5%;
 	vertical-align: middle;
 }
+
+img[alt=SQLiLogi] {
+	width:20%;
+}
+
+.myRef {
+
+	text-align: left; 
+	font-size: 0.6em !important;  
+	margin-left: 13em !important;
+}

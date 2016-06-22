@@ -119,13 +119,14 @@ Et pour vous ?
 
 ![EndDocker](./slides/images/end_docker.png) 
 
-Sources :<!-- .element: style="text-align: left;" -->
- [pixabay.com](https://pixabay.com), [docker.com](https://www.docker.com), [Blog TravisCI](https://blog.travis-ci.com)
-
-<p style="text-align: left;">
+<p class="myRef">
 ![Icon](./slides/images/twitter.png) [@RGuillom](https://twitter.com/RGuillome)
 </p>
-
-<p style="text-align: left;">
+<p class="myRef">
 ![Icon](./slides/images/website.png)  [blog.guillaumerenaudin.com](http://blog.guillaumerenaudin.com)
 </p>
+
+![SQLiLogi](./slides/images/sqli-squarelogo.png) 
+
+Sources :<!-- .element: style="text-align: center; font-size: 0.5em; color:white" -->
+ _[pixabay.com](https://pixabay.com), [docker.com](https://www.docker.com), [Blog TravisCI](https://blog.travis-ci.com)_
