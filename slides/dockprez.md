@@ -120,12 +120,12 @@ Et pour vous ?
 ![EndDocker](./slides/images/end_docker.png) 
 
 Sources :<!-- .element: style="text-align: left;" -->
- [pixabay.com](https://piwabay.com), [docker.com](https://www.docker.com), [Blog TravisCI](https://blog.travis-ci.com)
+ [pixabay.com](https://pixabay.com), [docker.com](https://www.docker.com), [Blog TravisCI](https://blog.travis-ci.com)
 
 <p style="text-align: left;">
 ![Icon](./slides/images/twitter.png) [@RGuillom](https://twitter.com/RGuillome)
 </p>
 
 <p style="text-align: left;">
-![Icon](./slides/images/website.png)  [https://blog.guillaumerenaudin.com](https://blog.guillaumerenaudin.com)
+![Icon](./slides/images/website.png)  [blog.guillaumerenaudin.com](http://blog.guillaumerenaudin.com)
 </p>
