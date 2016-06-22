@@ -9,7 +9,7 @@
 
 
 &#9835; Pour pouvoir faire mon numérooooooo &#9835;
-
+	
 ![ContainerNumero](./slides/images/container-numero.jpg)
 
 
@@ -26,8 +26,12 @@ Quand j'étais petit ...
 ![LegoToContainer](./slides/images/lego-to-container.png)
 
 
-![ContainerSize](./slides/images/container-size.jpg) <!-- .element: class="alignleft" -->
-![LegoSize](./slides/images/lego-size.png) <!-- .element: class="alignright" data-fragment-index="3" -->
+<p style="text-align:left">
+![ContainerSize](./slides/images/container-size.jpg)
+</p>
+<p style="text-align:right">
+![LegoSize](./slides/images/lego-size.png) <!-- .element: class="fragment" data-fragment-index="3" -->
+</p>
 
 
 ## Une BALEINE !

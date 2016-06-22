@@ -8,13 +8,21 @@
         <link rel="stylesheet" href="css/reveal.css">
         <link rel="stylesheet" href="css/theme/white.css">
         <link rel="stylesheet" href="slides/css/dockprez.css">
+        
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+        
     </head>
     <body>
         <div class="reveal">
             <div class="slides">
-                <section data-background-image="slides/images/dockme.png"
-                         data-background-size="contain">
-                </section>
+              <section data-background-image="./slides/images/dockme.png" data-background-size="contain"->&nbsp;
+                </section>               
                 <section data-markdown="slides/dockprez.md"  
                          data-separator="^\n\n\n"  
                          data-separator-vertical="^\n\n"

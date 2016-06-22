@@ -89,16 +89,6 @@ img[alt=DemoInit] {
 	width : 200%;
 }
 
-.alignleft {
-    float: left;
-    margin: 0.375em 1.75em 1.75em 0;
-}
-
-.alignright {
-    float: right;
-    margin: 0.375em 0 1.75em 1.75em;
-}
-
 
 img[alt=ContainerSize] {
 	text-align: left;
