@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Dock me if U can !</title>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/white.css">
+        <link rel="stylesheet" href="slides/css/dockprez.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-background-image="slides/images/dockme.png"
+                         data-background-size="contain">
+                </section>
+                <section data-markdown="slides/dockprez.md"  
+                         data-separator="^\n\n\n"  
+                         data-separator-vertical="^\n\n"
+                         data-background-image="slides/images/fond_slide2.png"
+                         data-background-size="100% 127%">
+                </section>                
+            </div>
+        </div>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+    <script>
+            Reveal.initialize({
+                controls: true,
+                history: true,
+                center: true,
+                progress: true,
+                transition: "concave",
+           
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }
+                ]
+            });
+        </script>
+    </body>
+</html>

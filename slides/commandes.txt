@@ -1,0 +1,79 @@
+
+# Lancement image
+
+# 1 - Lancement docker hello
+docker run busybox echo Hello Meetup !
+
+docker ps
+docker ps -a
+
+docker run --rm  busybox echo Hello Meetup !
+docker ps -a
+
+docker run --name mycontainer busybox echo "Hello Meetup !"
+
+docker ps -a  
+
+# 1 bis lancer une commande
+docker run --rm  busybox pwd
+docker run --rm  busybox ls
+
+# 4 - Exécutioon Go
+cd /home/rguillome/Documents/Prez/dockmeifucan/demo
+#WRONG
+go run helloworld.go
+
+#GOOD
+URL : https://hub.docker.com/_golang/
+
+docker run --rm -v $(pwd):/go/src -w /go/src golang go run helloworld.go
+
+# 2 - Lancement d'un serveur web
+docker run -d -p 80:80 nginx
+
+iceweasel http://$(docker-machine ip):8080/
+
+# 3 - Packaging application JEE
+cd /home/rguillome/Documents/Prez/dockmeifucan/demo
+docker run -d -p 8080:8080 -v $(pwd):/var/lib/jetty/webapps jetty 
+
+iceweasel http://$(docker-machine ip):8082/
+
+docker attach -t ... ps aux
+
+
+
+# 6 - Docker file
+--------------------------------------------------------------------------------
+FROM jetty
+
+ADD sample.war /var/lib/jetty/webapps/
+
+CMD ["java", "-Djava.io.tmpdir=/tmp/jetty","-jar","/usr/local/jetty/start.jar"]
+---------------------------------------------------------------------------------
+
+
+docker build -t rguillom/sample-application:1.0
+docker login
+docker push rguillom/sample-application
+
+iceweasel https://hub.docker.com
+
+
+###################################################################################
+
+#Prérequis
+sudo service apache2 stop
+docker rm $(docker ps -a -q)
+
+
+
+
+###TIPS
+Zoom in Ctrl+Shift+ "+"
+Zoom out Ctrl+ "-"
+
+
+##4 - opt - Environnement - 
+docker-machine start default
+eval $(docker-machine env default)

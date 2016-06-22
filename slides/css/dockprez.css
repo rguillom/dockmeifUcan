@@ -1,0 +1,118 @@
+.reveal h1, 
+.reveal h2, 
+.reveal h3, 
+.reveal h4, 
+.reveal h5, 
+.reveal h6
+.reveal body {
+	font-family: Helvetica Neue,​Helvetica,​Roboto,​Arial,​sans-serif;
+	font-variant-ligatures: common-ligatures;
+	letter-spacing: 0.02rem;
+	text-rendering: optimizeLegibility;
+	color: #222
+	font-style: normal;
+}
+
+.reveal section img {
+	border-style : none;
+	box-shadow: 0 0 0;
+	margin: 0px;
+}
+
+.reveal pre {
+	width : 100%;
+}
+
+img[alt=Container] {
+	width: 70%;
+}
+
+img[alt=ContainerArtist] {
+	width: 75%;
+}
+
+
+img[alt=ContainerNumero] {
+	width: 70%;
+}
+
+img[alt=ContainerCrash] {
+	width: 75%;
+}
+
+img[alt=ContainerImage] {
+	width: 65%;
+}
+
+img[alt=Lego] {
+	width: 85%;
+}
+
+img[alt=LegoToContainer] {
+	width: 150%;
+}
+
+img[alt=DockerWhale] {
+	width: 50%;
+}
+
+
+img[alt=DockerLegoWhale] {
+	width: 60%;
+}
+
+img[alt=ImbricationLego] {
+	width: 50%;
+}
+
+.reveal .font-bigger {
+	font-size: 1.5em;
+}
+
+img[alt=DevOps] {
+	width : 35%;
+}
+
+img[alt=DockerAvant2008] {
+	width : 50%;
+}
+
+img[alt=DockerApres2013] {
+	width : 60%;
+}
+
+img[alt=DockerImage] {
+	width : 80%;
+}
+
+img[alt=DemoInit] {
+	width : 200%;
+}
+
+.alignleft {
+    float: left;
+    margin: 0.375em 1.75em 1.75em 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0.375em 0 1.75em 1.75em;
+}
+
+
+img[alt=ContainerSize] {
+	text-align: left;
+}
+
+img[alt=LegoSize] {
+	text-align: right;
+}
+
+img[alt=EndDocker] {
+	width : 50%;
+}
+
+img[alt=Icon] {
+	width : 5%;
+	vertical-align: middle;
+}
